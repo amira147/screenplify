@@ -7,17 +7,17 @@
     <title>Screenplify </title>
 
     <!-- CSS -->
-    <link rel="stylesheet" href="./screenhub_files/css">
-    <link rel="stylesheet" href="./screenhub_files/css(1)">
-    <link rel="stylesheet" href="./screenhub_files/bootstrap.min.css">
-    <link rel="stylesheet" href="./screenhub_files/font-awesome-4.4.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./screenhub_files/style.css">
-    <link rel="stylesheet" href="./screenhub_files/animate.css">
-    <link rel="stylesheet" href="./screenhub_files/magnific-popup.css">
-    <link rel="stylesheet" href="./screenhub_files/superslides.css">
-    <link rel="stylesheet" href="./screenhub_files/form-elements.css">
-    <link rel="stylesheet" href="./screenhub_files/style(1).css">
-    <link rel="stylesheet" href="./screenhub_files/media-queries.css">
+    <link rel="stylesheet" href="./assets/css">
+    <link rel="stylesheet" href="./assets/css(1)">
+    <link rel="stylesheet" href="./assets/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/font-awesome-4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/animate.css">
+    <link rel="stylesheet" href="./assets/magnific-popup.css">
+    <link rel="stylesheet" href="./assets/superslides.css">
+    <link rel="stylesheet" href="./assets/form-elements.css">
+    <link rel="stylesheet" href="./assets/style(1).css">
+    <link rel="stylesheet" href="./assets/media-queries.css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -84,7 +84,7 @@
 <div class="slides top-content" style="position: relative; overflow: hidden; width: 100%; height: 826px;">
     <div class="slides-control" style="position: relative; height: 100%; width: 3441px; left: -1147px;"><ul class="slides-container" style="margin: 0px; padding: 0px; list-style: none; position: relative; height: 100%;">
         <li style="display: none; left: 1147px; position: absolute; overflow: hidden; height: 100%; width: 1147px; top: 0px; z-index: 0; opacity: 1;">
-            <img src="./screenhub_files/1.jpg" alt="Manage your digital sign for free-Picture" data-at2x="assets/img/backgrounds/1.jpg" style="backface-visibility: hidden; position: absolute; left: 0px; top: -17.125px; z-index: -1; max-width: none; height: 860.25px; width: 1147px;">
+            <img src="./assets/1.jpg" alt="Manage your digital sign for free-Picture" data-at2x="assets/img/backgrounds/1.jpg" style="backface-visibility: hidden; position: absolute; left: 0px; top: -17.125px; z-index: -1; max-width: none; height: 860.25px; width: 1147px;">
 
             <div class="top-content-text">
                 <h1 class="wow fadeInLeftBig animated" data-wow-duration="1.5s" style="visibility: visible; animation-duration: 1.5s; animation-name: fadeInLeftBig;">Free Digital Screen CMS Software</h1>
@@ -101,7 +101,7 @@
             </div>
         </li>
         <li style="display: none; left: 1147px; position: absolute; overflow: hidden; height: 100%; width: 1147px; top: 0px; z-index: 0; opacity: 1;">
-            <img src="./screenhub_files/2.jpg" alt="Update from any internet enabled device-Picture" data-at2x="assets/img/backgrounds/2.jpg" style="backface-visibility: hidden; position: absolute; left: 0px; top: -17.125px; z-index: -1; max-width: none; height: 860.25px; width: 1147px;">
+            <img src="./assets/2.jpg" alt="Update from any internet enabled device-Picture" data-at2x="assets/img/backgrounds/2.jpg" style="backface-visibility: hidden; position: absolute; left: 0px; top: -17.125px; z-index: -1; max-width: none; height: 860.25px; width: 1147px;">
 
             <div class="top-content-text">
                 <h2 class="wow fadeInLeftBig animated" data-wow-duration="1.5s" style="visibility: visible; animation-duration: 1.5s; animation-name: fadeInLeftBig;"> Web-Based: Manage Your Screens From
@@ -120,7 +120,7 @@
             </div>
         </li>
         <li style="display: block; left: 1147px; position: absolute; overflow: hidden; height: 100%; width: 1147px; top: 0px; z-index: 2; opacity: 1;">
-            <img src="./screenhub_files/3.jpg" alt="All in one solution for digital signs" data-at2x="assets/img/backgrounds/3.jpg" style="backface-visibility: hidden; position: absolute; left: 0px; top: -17px; z-index: -1; max-width: none; height: 860.25px; width: 1147px;">
+            <img src="./assets/3.jpg" alt="All in one solution for digital signs" data-at2x="assets/img/backgrounds/3.jpg" style="backface-visibility: hidden; position: absolute; left: 0px; top: -17px; z-index: -1; max-width: none; height: 860.25px; width: 1147px;">
 
             <div class="top-content-text">
                 <h2 class="wow fadeInLeftBig animated" data-wow-duration="1.5s" style="visibility: visible; animation-duration: 1.5s; animation-name: fadeInLeftBig;"> Any Digital Display: Any screen resolution</h2>
@@ -215,16 +215,16 @@
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner" role="listbox">
                         <div class="item">
-                            <img src="./screenhub_files/pc4.png" alt="PC, Tablet and phone together" style="width: auto !important; height: auto !important;">
+                            <img src="./assets/pc4.png" alt="PC, Tablet and phone together" style="width: auto !important; height: auto !important;">
                         </div>
                         <div class="item active">
-                            <img src="./screenhub_files/pc1.png" alt="PC" style="width: auto !important; height: auto !important;">
+                            <img src="./assets/pc1.png" alt="PC" style="width: auto !important; height: auto !important;">
                         </div>
                         <div class="item">
-                            <img src="./screenhub_files/pc2.png" alt="Tablet" style="width: auto !important; height: auto !important;">
+                            <img src="./assets/pc2.png" alt="Tablet" style="width: auto !important; height: auto !important;">
                         </div>
                         <div class="item">
-                            <img src="./screenhub_files/pc3.png" alt="Phone" style="width: auto !important; height: auto !important;">
+                            <img src="./assets/pc3.png" alt="Phone" style="width: auto !important; height: auto !important;">
                         </div>
                     </div>
                 </div>
@@ -370,7 +370,7 @@
 
                 <div class="col-md-3 col-sm-6">
                     <div class="thumbnail wow fadeInUp animated animated" style="visibility: visible; animation-name: fadeInUp;">
-                        <img src="./screenhub_files/display1.png" class="img-responsive" id="display1" alt="Responsive image">
+                        <img src="./assets/display1.png" class="img-responsive" id="display1" alt="Responsive image">
 
                         <div class="caption">
                             <h3 id="display1-title">Digital Bulletins</h3>
@@ -380,7 +380,7 @@
 
                 <div class="col-md-3 col-sm-6">
                     <div class="thumbnail wow fadeInDown animated animated" style="visibility: visible; animation-name: fadeInDown;">
-                        <img src="./screenhub_files/display2.png" class="img-responsive" id="display2" alt="Responsive image">
+                        <img src="./assets/display2.png" class="img-responsive" id="display2" alt="Responsive image">
 
                         <div class="caption">
                             <h3 id="display2-title">Screen Walls</h3>
@@ -390,7 +390,7 @@
 
                 <div class="col-md-3 col-sm-6">
                     <div class="thumbnail wow fadeInUp animated animated" style="visibility: visible; animation-name: fadeInUp;">
-                        <img src="./screenhub_files/display3.png" class="img-responsive" id="display3" alt="Responsive image">
+                        <img src="./assets/display3.png" class="img-responsive" id="display3" alt="Responsive image">
 
                         <div class="caption">
                             <h3>Electronic Message Centers</h3>
@@ -400,7 +400,7 @@
 
                 <div class="col-md-3 col-sm-6">
                     <div class="thumbnail wow fadeInDown animated animated" style="visibility: visible; animation-name: fadeInDown;">
-                        <img src="./screenhub_files/display4.png" class="img-responsive" id="display4" alt="Responsive image">
+                        <img src="./assets/display4.png" class="img-responsive" id="display4" alt="Responsive image">
 
                         <div class="caption">
                             <h3 id="display4-title">Digital Billboards</h3>
@@ -534,13 +534,13 @@
             <div class="col-sm-6 block-2-box block-2-right block-2-media wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
                 <div class="video-box">
                     <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="./screenhub_files/videoseries(1).html" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+                        <iframe class="embed-responsive-item" src="./assets/videoseries(1).html" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-<div class="backstretch" style="left: 0px; top: 0px; overflow: hidden; margin: 0px; padding: 0px; height: 450px; width: 1147px; z-index: -999998; position: absolute;"><img src="./screenhub_files/4.jpg" style="position: absolute; margin: 0px; padding: 0px; border: none; width: 1147px; height: 645.188px; max-height: none; max-width: none; z-index: -999999; left: 0px; top: -97.5938px;"></div></div>
+<div class="backstretch" style="left: 0px; top: 0px; overflow: hidden; margin: 0px; padding: 0px; height: 450px; width: 1147px; z-index: -999998; position: absolute;"><img src="./assets/4.jpg" style="position: absolute; margin: 0px; padding: 0px; border: none; width: 1147px; height: 645.188px; max-height: none; max-width: none; z-index: -999999; left: 0px; top: -97.5938px;"></div></div>
 
 <!-- Pricing -->
 <div class="pricing-container section-container">
@@ -572,7 +572,7 @@
                 <!--<div class="col-sm-6 wow fadeInUp">-->
                 <div class="video-box">
                     <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="./screenhub_files/videoseries.html" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+                        <iframe class="embed-responsive-item" src="./assets/videoseries.html" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
                     </div>
                 </div>
             </div>
@@ -695,28 +695,28 @@
         <div class="row">
             <div class="col-sm-3 about-us-box wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
                 <div class="about-us-photo">
-                    <img src="./screenhub_files/1(1).jpg" alt="Digital Signage Photo" data-at2x="assets/img/about/1.jpg">
+                    <img src="./assets/1(1).jpg" alt="Digital Signage Photo" data-at2x="assets/img/about/1.jpg">
 
                     <div class="about-us-role">Digital&nbsp; &nbsp; &nbsp;Signage</div>
                 </div>
             </div>
             <div class="col-sm-3 about-us-box wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">
                 <div class="about-us-photo">
-                    <img src="./screenhub_files/3(1).jpg" alt=" Software Developement Photo" data-at2x="assets/img/about/3.jpg">
+                    <img src="./assets/3(1).jpg" alt=" Software Developement Photo" data-at2x="assets/img/about/3.jpg">
 
                     <div class="about-us-role">Software Development</div>
                 </div>
             </div>
             <div class="col-sm-3 about-us-box wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
                 <div class="about-us-photo">
-                    <img src="./screenhub_files/2(1).jpg" alt=" Digital Marketing Photo" data-at2x="assets/img/about/2.jpg">
+                    <img src="./assets/2(1).jpg" alt=" Digital Marketing Photo" data-at2x="assets/img/about/2.jpg">
 
                     <div class="about-us-role">Digital Marketing</div>
                 </div>
             </div>
             <div class="col-sm-3 about-us-box wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">
                 <div class="about-us-photo">
-                    <img src="./screenhub_files/4(1).jpg" alt=" Electrical Engineering Photo" data-at2x="assets/img/about/4.jpg">
+                    <img src="./assets/4(1).jpg" alt=" Electrical Engineering Photo" data-at2x="assets/img/about/4.jpg">
 
                     <div class="about-us-role">Electrical Engineering</div>
                 </div>
@@ -764,16 +764,16 @@
 </footer>
 
 <!-- Javascript -->
-<script src="./screenhub_files/jquery-1.11.1.min.js"></script>
-<script src="./screenhub_files/bootstrap.min.js"></script>
-<script src="./screenhub_files/jquery.backstretch.min.js"></script>
-<script src="./screenhub_files/jquery.superslides.min.js"></script>
-<script src="./screenhub_files/wow.min.js"></script>
-<script src="./screenhub_files/retina-1.1.0.min.js"></script>
-<script src="./screenhub_files/jquery.magnific-popup.min.js"></script>
-<script src="./screenhub_files/waypoints.min.js"></script>
-<script src="./screenhub_files/masonry.pkgd.min.js"></script>
-<script src="./screenhub_files/scripts.js"></script>
+<script src="./assets/jquery-1.11.1.min.js"></script>
+<script src="./assets/bootstrap.min.js"></script>
+<script src="./assets/jquery.backstretch.min.js"></script>
+<script src="./assets/jquery.superslides.min.js"></script>
+<script src="./assets/wow.min.js"></script>
+<script src="./assets/retina-1.1.0.min.js"></script>
+<script src="./assets/jquery.magnific-popup.min.js"></script>
+<script src="./assets/waypoints.min.js"></script>
+<script src="./assets/masonry.pkgd.min.js"></script>
+<script src="./assets/scripts.js"></script>
 
 <!--[if lt IE 10]>
 <script src="assets/js/placeholder.js"></script>
