@@ -4,13 +4,16 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Screenplify </title>
+    <title>Complete Digital Signage Solution - Screenplify </title>
+    <meta name="description" content="A feature-filled, complete solution for digital signage creation, from design up to deployment.">
 
     <!-- CSS -->
     <link rel="stylesheet" href="./assets/css">
     <link rel="stylesheet" href="./assets/css(1)">
     <link rel="stylesheet" href="./assets/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/font-awesome-4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="./assets/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="./assets/slick/slick-theme.css"/>
     <link rel="stylesheet" href="./assets/style.css">
     <link rel="stylesheet" href="./assets/animate.css">
     <link rel="stylesheet" href="./assets/magnific-popup.css">
@@ -44,16 +47,17 @@
 </div>
 
 <!-- Top menu -->
+
 <nav class="navbar navbar-fixed-top" role="navigation">
     <div class="container">
-        <div class="navbar-header">
+        <div class="navbar-header scroll-to-top">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-navbar-1">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="http://www.screenplify.it/index.php">Screenplify -  A digital signage software built for speed, simplicity, and security</a>
+            <a class="navbar-brand" href="#">Screenplify -  A digital signage software built for speed, simplicity, and security</a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="top-navbar-1">
@@ -62,6 +66,7 @@
                 <li><a class="scroll-link" href="#what-we-do">What we do</a></li>
                 <!-- <li><a class="scroll-link" href="#compatibility">Compatibility</a></li> -->
                 <li><a class="scroll-link" href="#services">Features</a></li>
+                <li><a class="scroll-link" href="#clients">Clients</a></li>
                 <li><a class="scroll-link" href="#about-us">About</a></li>
                 <!-- <li><a class="" href="http://app.screenplify.it/#/signup" target="_blank">
                     <strong>Sign Up</strong></a>
@@ -75,11 +80,69 @@
 </nav>
 
 <!-- Fullscreen header -->
-<div id="header">
+<!-- <div id="header">
     <div class="header-img"></div>
-  </div>
+</div> -->
 
 <!-- Slider -->
+<div id="slides" class="top-content col-xs-12" style="padding:0;float: none;">
+  <ul class="slides-container">
+    
+    <li class="slide-1">
+      <img src="assets/img/stockphoto_screens_dimmed.jpg" alt="">
+      <div class="slide-content col-sm-6">
+          <h3 style="font-size:40px;line-height:42px;" class="wow fadeInRightBig" data-wow-duration="1.5s">
+          An All-in-One <br> Digital Signage Solution
+          </h3>
+          <h4 style="font-size:18px;" class="wow fadeInLeftBig" data-wow-duration="1.5s" data-wow-delay="0.5s">
+          Built for Speed, Simplicity, and Security
+          </h4>
+
+          <div class="top-content-bottom-link wow fadeInUp animated" data-wow-duration="1.5s" data-wow-delay="1.5s" style="visibility: visible; animation-duration: 1.5s; animation-delay: 1.5s; animation-name: fadeInUp;">
+              <a class="big-link-2 btn scroll-link" href="#what-we-do">Learn more</a>
+          </div>
+      </div>
+    </li>
+    
+    <li class="slide-2">
+      <img src="assets/img/stockphoto_mall_dimmed.jpg" alt="">
+      <div class="slide-content col-sm-6">
+
+          <h3 style="font-size:40px;line-height:50px;" class="wow fadeInLeftBig" data-wow-duration="1.5s">
+          Create and Manage
+          <br>
+          Feature-packed Displays
+          </h3>
+         <!--  <h4 style="font-size:18px;">
+          you'll ever need
+          </h4> -->
+
+          <div class="top-content-bottom-link wow fadeInUp animated" data-wow-duration="1.5s" data-wow-delay="1.5s" style="visibility: visible; animation-duration: 1.5s; animation-delay: 1.5s; animation-name: fadeInUp;">
+              <a class="big-link-2 btn scroll-link" href="#what-we-do">Learn more</a>
+          </div>
+      </div>
+    </li>
+    <li class="slide-3">
+      <img src="assets/img/stockphoto_airportscreen_dimmed.jpg" alt="">
+      <div class="slide-content col-sm-6">
+          <h3 style="font-size:40px;line-height:42px;" class="wow fadeInRightBig" data-wow-duration="1.5s">
+          For All Displays
+          </h3>
+          <h4 style="font-size:18px;" class="wow fadeInLeftBig" data-wow-duration="1.5s" data-wow-delay="0.5s">
+          Any size, any resolution, any orientation.
+          </h4>
+
+          <div class="top-content-bottom-link wow fadeInUp animated" data-wow-duration="1.5s" data-wow-delay="1.5s" style="visibility: visible; animation-duration: 1.5s; animation-delay: 1.5s; animation-name: fadeInUp;">
+              <a class="big-link-2 btn scroll-link" href="#what-we-do">Learn more</a>
+          </div>
+      </div>
+    </li>
+  </ul>
+  <!-- <nav class="slides-navigation">
+    <a href="#" class="next">Next</a>
+    <a href="#" class="prev">Previous</a>
+  </nav> -->
+</div>
 <?php /*
 <div class="slides top-content" style="position: relative; overflow: hidden; width: 100%; height: 826px;">
     <div class="slides-control" style="position: relative; height: 100%; width: 3441px; left: -1147px;"><ul class="slides-container" style="margin: 0px; padding: 0px; list-style: none; position: relative; height: 100%;">
@@ -141,18 +204,20 @@
 */ ?>
 
 <!-- What we do -->
-<div class="block-3-container section-container what-we-do-container">
+<div class="block-3-container section-container what-we-do-container" style="margin-top:60px;">
     <div class="container">
         <div class="row">
             <div class="col-sm-12 block-3 section-description wow fadeIn animated" style="visibility: visible; animation-name: fadeIn;">
-                <h2>A digital signage software built for speed, simplicity, and security</h2>
+                <!-- <img src="./assets/img/lightbulb/animat-lightbulb-color.gif" class="animat-icon"/> -->
+                <!-- <h2>An all-in-one digital signage solution built for speed, simplicity, and security</h2> -->
+                <h2>From design to deployment, we make digital signage a breeze!</h2>
 
                 <div class="divider-1 wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;"><span></span></div>
                 <p>
-                    Screenplify is an all-in-one solution for your digital signage needs.
-                    <br>
-                    This intuitive web-based solution seamlessly takes you through layout design, content management, up til hardware installation deployment for your screens.
-                    This solution also boasts post-deployment features such as screen display monitoring and system analytics.
+                    <!-- This intuitive web-based solution seamlessly takes you through layout design, content management, up til hardware installation deployment for your screens. -->
+                    Creating screen layouts will no longer be a daunting task and you will love what you no longer have to do.
+                    We make it easy for your content layout designs go from your idea board to your real screens without you having to rely on others.
+                    That's how pleaslantly simple our user interface and creation workflow is!
                 </p>
             </div>
         </div>
@@ -164,7 +229,7 @@
                 </div>
                 <h3>Layout Design</h3>
 
-                <p>Effortlessly create vibrant and dynamic, interactive/non-interactive displays for your screens with our simple and intuitive content manager.</p>
+                <p>Design vibrant and dynamic, interactive/non-interactive displays for your screens with our intuitive content manager.</p>
             </div>
             <div class="col-sm-3 block-3-box wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">
                 <div class="block-3-box-icon" style="color: #F55775;">
@@ -173,25 +238,23 @@
                 </div>
                 <h3>Content Management</h3>
 
-                <p> Cloud-based content manager allows for instant content updates and ease of accessability to update content.</p>
+                <p> Cloud-based content manager allows for instant content updates, anytime, anywhere.</p>
             </div>
-            <div class="col-sm-3 block-3-box wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
+             <div class="col-sm-3 block-3-box wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
                 <div class="block-3-box-icon" style="color: #F67838;">
                     <span aria-hidden="true" class="icon_desktop"></span>
-                    <!-- <span aria-hidden="true" class="block-3-box-icon-number">3</span> -->
                 </div>
-                <h3>Software Reliability</h3>
+                <h3>Player</h3>
 
-                <p>Screenplify digital signage runs on customized Linux OS for unmatched system stability and robust performance.</p>
+                <p>A reliable playback system that will play 24 hours a day and 365 days a year.</p>
             </div>
             <div class="col-sm-3 block-3-box wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">
                 <div class="block-3-box-icon" style="color: #BB8CD4;">
-                    <span aria-hidden="true" class="icon_cogs"></span>
-                    <!-- <span aria-hidden="true" class="block-3-box-icon-number">3</span> -->
+                    <span aria-hidden="true" class="icon_datareport"></span>
                 </div>
-                <h3>Extensible</h3>
+                <h3>Analytics</h3>
 
-                <p>Screenplify is an exstensible platform that allows for integeration with custom-made plugins and modules.</p>
+                <p>Monitor and maintain your network of displays through visual reports on user behavior and system performance.</p>
             </div>
         </div>
     </div>
@@ -349,69 +412,6 @@
         </div>
     </div>
 </div>
-
-<!-- Portfolio -->
-<div class="portfolio-container section-container">
-
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12 portfolio section-description wow fadeIn animated" style="visibility: visible; animation-name: fadeIn;">
-                <h2>For Every Display</h2>
-                Screenplify is compatible with any synchronous digital display, including: LED signs, plasma screens, LCD
-                panels, etc.
-                <div class="divider-1 wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;"><span></span></div>
-            </div>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-
-                <div class="col-md-3 col-sm-6">
-                    <div class="thumbnail wow fadeInUp animated animated" style="visibility: visible; animation-name: fadeInUp;">
-                        <img src="./assets/display1.png" class="img-responsive" id="display1" alt="Responsive image">
-
-                        <div class="caption">
-                            <h3 id="display1-title">Digital Bulletins</h3>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-3 col-sm-6">
-                    <div class="thumbnail wow fadeInDown animated animated" style="visibility: visible; animation-name: fadeInDown;">
-                        <img src="./assets/display2.png" class="img-responsive" id="display2" alt="Responsive image">
-
-                        <div class="caption">
-                            <h3 id="display2-title">Screen Walls</h3>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-3 col-sm-6">
-                    <div class="thumbnail wow fadeInUp animated animated" style="visibility: visible; animation-name: fadeInUp;">
-                        <img src="./assets/display3.png" class="img-responsive" id="display3" alt="Responsive image">
-
-                        <div class="caption">
-                            <h3>Electronic Message Centers</h3>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-3 col-sm-6">
-                    <div class="thumbnail wow fadeInDown animated animated" style="visibility: visible; animation-name: fadeInDown;">
-                        <img src="./assets/display4.png" class="img-responsive" id="display4" alt="Responsive image">
-
-                        <div class="caption">
-                            <h3 id="display4-title">Digital Billboards</h3>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-</div>
 */
 ?>
 
@@ -420,11 +420,16 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12 block-4 section-description wow fadeIn animated" style="visibility: visible; animation-name: fadeIn;">
+                <!-- <img src="./assets/img/diamond/animat-diamond-color.gif" class="animat-icon"/> -->
                 <h2>Why choose Screenplify</h2>
 
                 <div class="divider-1 wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;"><span></span></div>
+                <!-- With this powerful and feature-packed software, creating and managing content for your screens becomes a breeze! -->
                 <p>
-                    With this powerful and feature-packed software, creating and managing content for your screens becomes a breeze!
+                    Only requirements: an internet-enabled web browser.
+                    <br>
+                    Bring your digital signage vision into reality with minimal requirements to get started. Fine-tune your design in a matter of minutes.
+                    By eleminating the hard labour off your to-do list and saving you time on the small things, you can focus on creating a functional design that you and your audience will love.
                 </p>
             </div>
         </div>
@@ -433,9 +438,9 @@
                 <div class="block-4-box-icon">
                     <span aria-hidden="true" class=" icon_like_alt" style="color: #6BE4D1;"></span>
                 </div>
-                <h3>Easy to Use</h3>
+                <h3>Drag and drop</h3>
 
-                <p>Create eye-catching layouts, set scheduled content, and curate media playlists with minimal effort with the straighforwward, intuitive interface.</p>
+                <p>Create eye-catching layouts, set scheduled content, and curate media playlists with our straighforward, intuitive interface.</p>
             </div>
             <div class="col-sm-3 block-4-box wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">
                 <div class="block-4-box-icon">
@@ -443,7 +448,7 @@
                 </div>
                 <h3>Design Templates</h3>
 
-                <p> Waste no time in creating layouts by selecting a design from a list of vibrant templates.</p>
+                <p> Ran out of design ideas? Create layouts by selecting a design from a list of our creative templates.</p>
             </div>
             <div class="col-sm-3 block-4-box wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
                 <div class="block-4-box-icon">
@@ -459,18 +464,10 @@
                 </div>
                 <h3>Multimedia</h3>
 
-                <p> Supports an extensive list of file extensions to display images, videos, maps, and directories. </p>
+                <p>Supports an extensive list of file extensions to display images, videos, maps, and directories. Also supports RSS feeds (both online and offline).</p>
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-3 block-4-box wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">
-                <div class="block-4-box-icon">
-                    <span aria-hidden="true" class="social_rss" style="color: #FFD527;"></span>
-                </div>
-                <h3>RSS support</h3>
-
-                <p> Support for RSS feeds (online and offline).</p>
-            </div>
             <div class="col-sm-3 block-4-box wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
                 <div class="block-4-box-icon">
                     <span aria-hidden="true" class="fa fa-clock-o" style="color: #FFD527;"></span>
@@ -478,7 +475,7 @@
                 </div>
                 <h3>Synced Display</h3>
 
-                <p>Multiple screens can be set to display duplicate layouts and synced content transitions and behaviour.</p>
+                <p>Multiple screens can be set to display duplicate layouts with synchronized content transitions and behaviour.</p>
             </div>
             <div class="col-sm-3 block-4-box wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">
                 <div class="block-4-box-icon">
@@ -490,16 +487,68 @@
             </div>
             <div class="col-sm-3 block-4-box wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
                 <div class="block-4-box-icon">
-                    <span aria-hidden="true" class="icon_datareport" style="color: #FFD527;"></span>
+                    <span aria-hidden="true" class="icon_lock_alt" style="color: #FFD527;"></span>
+                    <!-- <span aria-hidden="true" class="block-3-box-icon-number">3</span> -->
                 </div>
-                <h3>Analytics</h3>
+                <h3>Software Reliability</h3>
 
-                <p>Visual reports on user behavior and system performance.</p>
+                <p>Screenplify digital signage runs on customized Linux OS for unmatched system stability and robust performance.</p>
+            </div>
+            <div class="col-sm-3 block-4-box wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">
+                <div class="block-4-box-icon">
+                    <span aria-hidden="true" class="icon_cogs" style="color: #FFD527;"></span>
+                    <!-- <span aria-hidden="true" class="block-3-box-icon-number">3</span> -->
+                </div>
+                <h3>Extensible</h3>
+
+                <p>Our exstensible platform allows for integeration with custom-made plugins and modules.</p>
             </div>
         </div>
         <div class="row">
             <div class="col-sm-3 block-4-box"></div>
             <div class="col-sm-3 block-4-box"></div>
+        </div>
+    </div>
+</div>
+
+<!-- Portfolio -->
+<div class="clients-container section-container">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 portfolio section-description wow fadeIn animated" style="visibility: visible; animation-name: fadeIn;">
+                <!-- <img src="./assets/img/rocket/animat-rocket-color.gif" class="animat-icon"/> -->
+                <h2>Our Clients</h2>
+                <!-- Screenplify is compatible with any synchronous digital display, including: LED signs, plasma screens, LCD
+                panels, etc. -->
+                <div class="divider-1 wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;"><span></span></div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+
+        <div class="col-sm-10 col-center client-logos">
+          <div><img src="./assets/img/client_logos/mydin.png" style="width:60%;margin-top:37px;"/></div>
+          <div><img src="./assets/img/client_logos/altel.png" /></div>
+          <div><img src="./assets/img/client_logos/mahsing.png" style="margin-top:20px;width:90%" /></div>
+          <div><img src="./assets/img/client_logos/ioi.jpg" style="width:70%;" /></div>
+          <div><img src="./assets/img/client_logos/bv.png" /></div>
+          <div><img src="./assets/img/client_logos/macy.png" /></div>
+          <div><img src="./assets/img/client_logos/sunwayproperty.png" style="width:60%;" /></div>
+          <div><img src="./assets/img/client_logos/matta.png" /></div>
+          <div><img src="./assets/img/client_logos/chermainepoo.png" /></div>
+          <div><img src="./assets/img/client_logos/tedxkl.png" /></div>
+          <div><img src="./assets/img/client_logos/ges.png" /></div>
+          <div><img src="./assets/img/client_logos/klims.png" /></div>
+          <div><img src="./assets/img/client_logos/homedec.png" /></div>
+          <div><img src="./assets/img/client_logos/itxasia.png" /></div>
+          <div><img src="./assets/img/client_logos/startupmalaysia.png" /></div>
+          <div><img src="./assets/img/client_logos/tpm.png" /></div>
+        </div>
+        
         </div>
     </div>
 </div>
@@ -676,6 +725,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12 about-us section-description wow fadeIn animated" style="visibility: visible; animation-name: fadeIn;">
+                <!-- <img src="./assets/img/search/animat-search-color.gif" class="animat-icon"/> -->
                 <h2>About us</h2>
 
                 <div class="divider-1 wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;"><span></span></div>
@@ -769,6 +819,7 @@
 <script src="./assets/jquery.backstretch.min.js"></script>
 <script src="./assets/jquery.superslides.min.js"></script>
 <script src="./assets/wow.min.js"></script>
+<script src="./assets/slick/slick.min.js"></script>
 <script src="./assets/retina-1.1.0.min.js"></script>
 <script src="./assets/jquery.magnific-popup.min.js"></script>
 <script src="./assets/waypoints.min.js"></script>

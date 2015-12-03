@@ -24,6 +24,7 @@ jQuery(document).ready(function() {
 	// toggle "navbar-no-bg" class
 	$('.top-content').waypoint(function() {
 		// $('nav').toggleClass('navbar-no-bg');
+		// $('nav').toggleClass('navbar-hidden');
 	}, {
 		offset: function() {
 					return -$(this).outerHeight() + $('nav').outerHeight();
@@ -49,9 +50,39 @@ jQuery(document).ready(function() {
 	/*
 	    Slider
 	*/
-	$('.slides').superslides({
-		play: 7000, 
-		animation: 'fade'
+
+	//header slides
+	$('#slides').superslides({
+		play: false, 
+		animation: 'slide'
+	});
+  	
+  	//client slides
+	$('.client-logos').slick({
+		  dots: true,
+		  infinite: true,
+		  speed: 400,
+		  slidesToShow: 4,
+		  slidesToScroll: 4,
+		  responsive: [
+		    {
+		      breakpoint: 600,
+		      settings: {
+		        slidesToShow: 2,
+		        slidesToScroll: 2
+		      }
+		    },
+		    {
+		      breakpoint: 480,
+		      settings: {
+		        slidesToShow: 1,
+		        slidesToScroll: 1
+		      }
+		    }
+		    // You can unslick at a given breakpoint now by adding:
+		    // settings: "unslick"
+		    // instead of a settings object
+		  ]
 	});
     
     /*
@@ -59,7 +90,7 @@ jQuery(document).ready(function() {
     */
 	$('.we-love-design-container').backstretch("assets/img/backgrounds/4.jpg");
 	$('.history-container').backstretch("assets/img/backgrounds/4.jpg");
-	$('.clients-container').backstretch("assets/img/backgrounds/3.jpg");
+	// $('.clients-container').backstretch("assets/img/backgrounds/3.jpg");
 	$('.how-we-do-it-container').backstretch("assets/img/backgrounds/4.jpg");
 	$('.testimonials-container').backstretch("assets/img/backgrounds/1.jpg");
 	$('.contact-container').backstretch("assets/img/backgrounds/4.jpg");
