@@ -136,12 +136,12 @@ img { max-width: 100%; }
 	display: inline-block;
 	margin: 0 5px;
 	padding: 14px 19px;
-	background: white;
-	border: 1px solid #444;
+	background: none;
+	border: 1px solid #FFF;
 	font-size: 16px;
     font-weight: 500;
     line-height: 22px;
-    color: #444;
+    color: #FFF;
     text-transform: uppercase;
     -moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0;
 }
@@ -152,7 +152,7 @@ img { max-width: 100%; }
 }*/
 /*.big-link-2:hover, .big-link-2:focus, .big-link-2:active, .big-link-2:active:focus { outline: 0; opacity: 0.6; background: none; color: #fff; }*/
 .big-link-2:hover ,.big-link-2:focus, .big-link-2:active, .big-link-2:active:focus { outline: 0; opacity: 0.6; background: none; color:#fff;}
-.big-link-2:hover { background: #444;}
+/*.big-link-2:hover { background: #444;}*/
 
 
 /***** Dividers *****/
@@ -245,6 +245,7 @@ background-size: contain;
 	width: 700px;
 	margin: 260px auto 0 auto;	
 	color: #fff;
+	float: none;
 }
 
 .top-content-text h1, .top-content-text h2 {
@@ -269,11 +270,11 @@ background-size: contain;
 	width: 15px;
 	height: 15px;
 	margin: 5px;
-	border: 1px solid #444;
+	border: 1px solid #FFF;
 	-moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%;
 }
 
-.slides-pagination a.current { background: #444; }
+.slides-pagination a.current { background: #FFF; }
 
 /*.header-img{
     animation: 40s linear 0s normal none infinite animatedBackground;
@@ -366,10 +367,10 @@ background-size: contain;
 }
 
 /* slider */
-.slide-content{margin: 0 auto;float:none;}
-.slide-1 .slide-content{top: 90px;left: 50px;float:left;}
-.slide-2 .slide-content{top: 60px;}
-.slide-3 .slide-content{ top: 60px;}
+/*.slide-content{margin: 0 auto;float:none;}*/
+/*.slide-1 .slide-content{top: 90px;left: 50px;float:left;}*/
+/*.slide-2 .slide-content{top: 60px;}*/
+/*.slide-3 .slide-content{ top: 60px;}*/
 
 #slider-1 .item img {
 	margin: 0 auto;
@@ -648,6 +649,10 @@ li.history-block-6 { margin-top: 60px; }
 
 
 /***** Clients *****/
+.client-logos .row{
+	margin:50px auto 0px;
+	float:none;
+}
 
 .client-logos img{
 	margin:0 auto;

@@ -23,7 +23,7 @@ jQuery(document).ready(function() {
 	});
 	// toggle "navbar-no-bg" class
 	$('.top-content').waypoint(function() {
-		// $('nav').toggleClass('navbar-no-bg');
+		$('nav').toggleClass('navbar-no-bg');
 		// $('nav').toggleClass('navbar-hidden');
 	}, {
 		offset: function() {
@@ -58,7 +58,7 @@ jQuery(document).ready(function() {
 	});
   	
   	//client slides
-	$('.client-logos').slick({
+	/*$('.client-logos').slick({
 		  dots: true,
 		  infinite: true,
 		  speed: 400,
@@ -83,7 +83,7 @@ jQuery(document).ready(function() {
 		    // settings: "unslick"
 		    // instead of a settings object
 		  ]
-	});
+	});*/
     
     /*
         Fullscreen backgrounds

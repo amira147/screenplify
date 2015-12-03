@@ -48,7 +48,7 @@
 
 <!-- Top menu -->
 
-<nav class="navbar navbar-fixed-top" role="navigation">
+<nav class="navbar navbar-fixed-top navbar-no-bg" role="navigation">
     <div class="container">
         <div class="navbar-header scroll-to-top">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-navbar-1">
@@ -90,7 +90,7 @@
     
     <li class="slide-1">
       <img src="assets/img/stockphoto_screens_dimmed.jpg" alt="">
-      <div class="slide-content col-sm-6">
+      <div class="slide-content col-sm-6 top-content-text">
           <h3 style="font-size:40px;line-height:42px;" class="wow fadeInRightBig" data-wow-duration="1.5s">
           An All-in-One <br> Digital Signage Solution
           </h3>
@@ -106,7 +106,7 @@
     
     <li class="slide-2">
       <img src="assets/img/stockphoto_mall_dimmed.jpg" alt="">
-      <div class="slide-content col-sm-6">
+      <div class="slide-content col-sm-6 top-content-text">
 
           <h3 style="font-size:40px;line-height:50px;" class="wow fadeInLeftBig" data-wow-duration="1.5s">
           Create and Manage
@@ -124,7 +124,7 @@
     </li>
     <li class="slide-3">
       <img src="assets/img/stockphoto_airportscreen_dimmed.jpg" alt="">
-      <div class="slide-content col-sm-6">
+      <div class="slide-content col-sm-6 top-content-text">
           <h3 style="font-size:40px;line-height:42px;" class="wow fadeInRightBig" data-wow-duration="1.5s">
           For All Displays
           </h3>
@@ -527,29 +527,39 @@
     </div>
 
 
-    <div class="container">
-        <div class="row">
+    <div class="container client-logos">
+        <!-- <div class="row"> -->
 
-        <div class="col-sm-10 col-center client-logos">
-          <div><img src="./assets/img/client_logos/mydin.png" style="width:60%;margin-top:37px;"/></div>
-          <div><img src="./assets/img/client_logos/altel.png" /></div>
-          <div><img src="./assets/img/client_logos/mahsing.png" style="margin-top:20px;width:90%" /></div>
-          <div><img src="./assets/img/client_logos/ioi.jpg" style="width:70%;" /></div>
-          <div><img src="./assets/img/client_logos/bv.png" /></div>
-          <div><img src="./assets/img/client_logos/macy.png" /></div>
-          <div><img src="./assets/img/client_logos/sunwayproperty.png" style="width:60%;" /></div>
-          <div><img src="./assets/img/client_logos/matta.png" /></div>
-          <div><img src="./assets/img/client_logos/chermainepoo.png" /></div>
-          <div><img src="./assets/img/client_logos/tedxkl.png" /></div>
-          <div><img src="./assets/img/client_logos/ges.png" /></div>
-          <div><img src="./assets/img/client_logos/klims.png" /></div>
-          <div><img src="./assets/img/client_logos/homedec.png" /></div>
-          <div><img src="./assets/img/client_logos/itxasia.png" /></div>
-          <div><img src="./assets/img/client_logos/startupmalaysia.png" /></div>
-          <div><img src="./assets/img/client_logos/tpm.png" /></div>
+          <!-- <div class="col-sm-10 col-center client-logos"> -->
+        <div class="row col-sm-10">
+            <div class="col-sm-3"><img src="./assets/img/client_logos/mydin.png" /></div>
+            <div class="col-sm-3"><img src="./assets/img/client_logos/altel.png" /></div>
+            <div class="col-sm-3"><img src="./assets/img/client_logos/mahsing.png" /></div>
+            <div class="col-sm-3"><img src="./assets/img/client_logos/ioi.jpg" /></div>
         </div>
+            
+        <div class="row col-sm-10">
+            <div class="col-sm-3"><img src="./assets/img/client_logos/bv.png" /></div>
+            <div class="col-sm-3"><img src="./assets/img/client_logos/macy.png" /></div>
+            <div class="col-sm-3"><img src="./assets/img/client_logos/sunwayproperty.png" /></div>
+            <div class="col-sm-3"><img src="./assets/img/client_logos/matta.png" /></div>
+          </div>
+            
+        <div class="row col-sm-10">
+            <div class="col-sm-3"><img src="./assets/img/client_logos/chermainepoo.png" /></div>
+            <div class="col-sm-3"><img src="./assets/img/client_logos/tedxkl.png" /></div>
+            <div class="col-sm-3"><img src="./assets/img/client_logos/ges.png" /></div>
+            <div class="col-sm-3"><img src="./assets/img/client_logos/klims.png" /></div>
+          </div>
+            
+        <div class="row col-sm-10">
+            <div class="col-sm-3"><img src="./assets/img/client_logos/homedec.png" /></div>
+            <div class="col-sm-3"><img src="./assets/img/client_logos/itxasia.png" /></div>
+            <div class="col-sm-3"><img src="./assets/img/client_logos/startupmalaysia.png" /></div>
+            <div class="col-sm-3"><img src="./assets/img/client_logos/tpm.png" /></div>
+          </div>
         
-        </div>
+        <!-- </div> -->
     </div>
 </div>
 
